@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/Hariharan-SV-IBM
   gitUsername: Hariharan-SV-IBM
   gitBranch: main
+services:
+- serviceName: project.git1.integrations:testDAF01
+  packages:
+  - name: Git1Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
