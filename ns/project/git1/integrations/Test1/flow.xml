@@ -162,4 +162,8 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
+
+<INVOKE NAME="Date" SERVICE="pub.date:getCurrentDate" DISABLED="true">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
