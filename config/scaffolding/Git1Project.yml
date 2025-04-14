@@ -8,6 +8,7 @@ packages:
   gitUsername: Hariharan-SV-IBM
   gitBranch: main
 - name: SIQA_OriginTest_OnPremAssets_new
+  version: "1.0"
   gitServerName: vidi
   gitUrl: https://github.com/vijetadixit
   gitUsername: vijetadixit
@@ -16,6 +17,8 @@ services:
 - serviceName: project.git1.integrations:Test1
   packages:
   - name: Git1Project
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets_new
     version: "1.0"
 - serviceName: Basics_1:ComplexFS
   packages:
@@ -76,4 +79,6 @@ services:
 - serviceName: project.git1.integrations:testDAF01
   packages:
   - name: Git1Project
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets_new
     version: "1.0"
